@@ -1,0 +1,37 @@
+ifndef::init[]
+include::../_init.adoc[]
+endif::[]
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+== Content
+
+Sed in risus rutrum, commodo quam nec, viverra nulla.
+Curabitur porta tincidunt urna.
+Aenean pulvinar sapien ex, id ultrices lacus consectetur ac.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Praesent et euismod est.
+Integer eleifend ornare accumsan.
+Etiam non nulla ut urna suscipit bibendum sed sed urna.
+
+=== Example pages
+
+* xref:../20_du/20_asciidoc.adoc[AsciiDoc content]
+* xref:../20_du/30_diagrams.adoc[AsciiDoctor diagrams]
+* xref:../20_du/40_drawio.adoc[DrawIo - Digramms.net example]
+
+=== Other
+
+Phasellus lacinia pellentesque odio ac facilisis. 
+
+* Phasellus aliquam 
+* Ullamcorper ligula 
+* Porttitor ullamcorper. 
+
+*Vestibulum* lorem leo, _mattis quis_ ligula eget, vulputate dignissim magna.
+Nunc dapibus, orci sit amet blandit commodo
+
+NOTE: Curabitur in diam quam.
+Cras eu purus lorem.
+Phasellus ut blandit ex.
+Morbi maximus eleifend enim.

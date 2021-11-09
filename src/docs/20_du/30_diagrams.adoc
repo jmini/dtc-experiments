@@ -1,0 +1,45 @@
+ifndef::init[]
+include::../_init.adoc[]
+endif::[]
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+== Asciidoctor Diagrams
+
+=== ditaa
+
+[ditaa, sample-ditaa-diagram]
+----
+ +--------+   +-------------+    /----------------\
+ |        | --+    Hello    +--> |                |
+ | Lorem  |   +-------------+    |   U V W X Y Z  |
+ |  Ipsum |   |   !Test!    |    |                |
+ |     {d}|   |             |    |                |
+ +---+----+   +-------------+    \----------------/
+     :                                   ^
+     |               here                |
+     +-----------------------------------+
+----
+
+=== graphviz
+
+[graphviz, sample-graphviz-diagram, png]
+----
+digraph g {
+  a -> b
+  b -> c
+  c -> d
+  d -> a
+}
+----
+
+=== plantuml
+
+[plantuml, sample-plantuml-diagram]
+----
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
+----

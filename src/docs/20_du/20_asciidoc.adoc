@@ -1,0 +1,142 @@
+ifndef::init[]
+include::../_init.adoc[]
+endif::[]
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+== AsciiDoc
+
+=== Lists
+
+==== Unordered list
+
+* List item
+** Nested list item
+*** Nested list item
+* List item
+ ** Another nested list item
+* List item
+
+==== Ordered list
+
+. Step 1
+. Step 2
+.. Step 2a
+.. Step 2b
+. Step 3
+
+==== Description list
+
+First term:: The description can be placed on the same line
+as the term.
+Second term::
+Description of the second term.
+The description can also start on its own line.
+
+=== Bold, italic, and monospace formatting syntax
+
+bold *constrained* & **un**constrained
+
+italic _constrained_ & __un__constrained
+
+bold italic *_constrained_* & **__un__**constrained
+
+monospace `constrained` & ``un``constrained
+
+monospace bold `*constrained*` & ``**un**``constrained
+
+monospace italic `_constrained_` & ``__un__``constrained
+
+monospace bold italic `*_constrained_*` & ``**__un__**``constrained
+
+=== Admonitions
+
+NOTE: An admonition draws the reader's attention to auxiliary information.
+
+Here are the other built-in admonition types:
+
+IMPORTANT: Don't forget the children!
+
+TIP: Look for the warp zone under the bridge.
+
+CAUTION: Slippery when wet.
+
+WARNING: The software you're about to use is untested.
+
+IMPORTANT: Sign off before stepping away from your computer.
+
+=== Tables
+
+|===
+|Column 1, Header Row |Column 2, Header Row 
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|===
+
+==== With headers
+
+[cols=2*,options=header]
+|===
+|Name
+|Group
+
+|Firefox
+|Web Browser
+
+|Ruby
+|Programming Language
+|===
+
+
+=== Replacements
+
+[cols=3*,options=header]
+|===
+|Name
+|Characters
+|Result
+
+|Copyright
+| \(C)
+| (C)
+
+|Registered
+| \(R)
+| (R)
+
+|Registered
+| \(R)
+| (R)
+
+|Trademark
+| \(TM)
+| (TM)
+
+|Em dash
+| \--
+| --
+
+|Ellipsis
+| \...
+| ...
+
+|Single right arrow
+| \->
+| ->
+
+|Double right arrow
+| \=>
+| =>
+
+|Single left arrow
+| \<-
+| <-
+
+|Double left arrow
+| \<=
+| <=
+|===

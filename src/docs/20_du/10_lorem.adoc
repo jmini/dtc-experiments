@@ -1,0 +1,65 @@
+ifndef::init[]
+include::../_init.adoc[]
+endif::[]
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+== Lorem
+
+Lorem diam sed, efficitur massa.
+xref:../30_tri/10_ipsum.adoc[Ipsum] sed in risus rutrum.
+Sed lacinia finibus dui et lobortis.
+Pellentesque et enim.
+Etiam arcu odio, faucibus non eros nec, mattis tristique mauris.
+Cras eget aliquet nibh.
+Curabitur in porta sem, maximus aliquet diam.
+Integer vitae augue eget ex viverra pharetra.
+In eu risus at diam lacinia dignissim.
+Duis vel mauris sed ex lobortis dictum.
+Nunc sagittis felis et turpis bibendum, id aliquam libero fermentum.
+Ut dolor nisi, congue nec lorem ac, commodo bibendum nunc.
+Nam ac felis elit.
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed sapien orci, luctus nec ligula nec, ornare hendrerit nunc.
+Cras vitae consectetur turpis.
+
+image::svg/lorem.svg[Lorem,300,opts=inline]
+
+Phasellus lacinia pellentesque odio ac facilisis <<lst-lorem-json>>.
+
+Phasellus aliquam ullamcorper ligula porttitor ullamcorper.
+Vestibulum lorem leo, mattis quis ligula eget, vulputate dignissim magna.
+
+image::lorem.png[Lorem tiles]
+
+[[lst-lorem-json]]
+[source, json]
+.Lorem JSON example
+----
+{
+    "id": 364528,
+    "lorem": "lorem",
+    "data": ["9786e2c1", "c51147af", "81aa2d6d", "6a5a6b82"]
+}
+----
+
+Curabitur in diam quam.
+Cras eu purus lorem.
+Phasellus ut blandit ex.
+Morbi maximus eleifend enim, in venenatis enim auctor pharetra.
+Sed congue mollis tellus, id molestie libero dictum vitae.
+Aliquam erat volutpat.
+Quisque nec blandit nulla.
+Morbi pretium quis lacus sed fermentum.
+Donec convallis quam non odio maximus, sed mollis lacus mollis.
+Sed vehicula auctor magna at dignissim.
+Donec quis urna et est placerat malesuada.
+Donec fringilla magna id orci vulputate, eget venenatis ex posuere.
+Quisque malesuada et mi non finibus.
+
+Proin sit amet viverra lorem.
+Nulla ipsum eros, aliquam id felis sed, malesuada faucibus nisi.
+Nam pulvinar, sem non tristique scelerisque, mi orci tincidunt justo, quis interdum odio libero at lorem.
+In luctus iaculis risus, sit amet aliquet metus rutrum molestie.
+Fusce nec aliquet tellus.
+Aliquam tincidunt purus dictum quam sodales tempor.
+Quisque tincidunt purus sem, quis efficitur justo pharetra non.

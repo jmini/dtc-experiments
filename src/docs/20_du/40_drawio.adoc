@@ -1,0 +1,11 @@
+ifndef::init[]
+include::../_init.adoc[]
+endif::[]
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+== Draw.io Example
+
+Pattern `[file].dio.png` to indicate that the file can be opened by Draw.io / Diagrams.net
+
+image::example.dio.png[Draw.io example]

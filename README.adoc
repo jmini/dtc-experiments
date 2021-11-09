@@ -1,0 +1,42 @@
+//tag::vardef[]
+:gh-repo-owner: jmini
+:gh-repo-name: dtc-experiments
+:project-name: dtc Experiments
+:twitter-handle: j2r2b
+:license: https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html
+:license-name: Eclipse Public License - v 2.0
+
+:git-repository: {gh-repo-owner}/{gh-repo-name}
+:homepage: https://{gh-repo-owner}.github.io/{gh-repo-name}/
+:issues: https://github.com/{git-repository}/issues
+//end::vardef[]
+
+//tag::header[]
+= {project-name}
+:author: Jeremie Bresson
+
+Experiments with link:http://doctoolchain.org/[docToolchain]
+//end::header[]
+
+//tag::description[]
+== Description
+
+This repository is an example setup of a site generated with link:http://doctoolchain.org/[docToolchain]
+
+//end::description[]
+See the publish site link:{homepage}[on GitHub pages].
+
+//tag::contact-section[]
+== Get in touch
+
+Use the link:{issues}[issue tracker] on GitHub.
+
+You can also contact me on Twitter: link:https://twitter.com/{twitter-handle}[@{twitter-handle}]
+//end::contact-section[]
+
+//tag::license-section[]
+== License
+
+Code is under link:{license}[{license-name}].
+Documentation and slides are under the link:https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons BY-SA 4.0]
+//end::license-section[]

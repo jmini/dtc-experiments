@@ -1,0 +1,22 @@
+ifndef::init[]
+include::../_init.adoc[]
+endif::[]
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+== Into
+
+Basic ditaa block:
+
+[ditaa]
+....
+ +---------+         /------------\
+ |         | ------> |            |
+ |  Lorem  |         |    Ipsum   |
+ |         |         |            |
+ +---------+         \------------/
+....
+
+xref:../20_du/10_lorem.adoc[Lorem] lacinia pellentesque odio ac facilisis xref:../30_tri/10_ipsum.adoc[ipsum].
+
+image::all.png[Lorem ipsum tiles]
