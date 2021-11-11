@@ -1,0 +1,10 @@
+ifndef::init[]
+include::../../_init.adoc[]
+endif::[]
+
+ifndef::imagesdir[:imagesdir: ../../images]
+
+== Topic B
+
+Ipsum sed in risus rutrum, commodo quam nec, viverra nulla.
+Curabitur porta tincidunt urna.
