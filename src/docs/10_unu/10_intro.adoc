@@ -4,7 +4,7 @@ endif::[]
 
 ifndef::imagesdir[:imagesdir: ../images]
 
-== Into
+== Intro
 
 Basic ditaa block:
 
