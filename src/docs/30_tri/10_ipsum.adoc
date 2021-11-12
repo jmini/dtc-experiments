@@ -21,7 +21,7 @@ Nam a elementum elit.
 Nunc vehicula fermentum euismod.
 Etiam fermentum et purus sed interdum.
 
-image::svg/ipsum.svg[Ipsum,300,opts=inline]
+image::svg/ipsum.svg[Ipsum,300,svg-type="inline"]
 
 Phasellus aliquam ullamcorper ligula porttitor ullamcorper.
 Vestibulum lorem leo, mattis quis ligula eget, vulputate dignissim magna.

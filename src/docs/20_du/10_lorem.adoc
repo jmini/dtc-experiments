@@ -22,7 +22,7 @@ Nam ac felis elit.
 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed sapien orci, luctus nec ligula nec, ornare hendrerit nunc.
 Cras vitae consectetur turpis.
 
-image::svg/lorem.svg[Lorem,300,opts=inline]
+image::svg/lorem.svg[Lorem,300,svg-type="inline"]
 
 Phasellus lacinia pellentesque odio ac facilisis <<lst-lorem-json>>.
 
