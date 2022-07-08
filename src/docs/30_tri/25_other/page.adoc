@@ -4,7 +4,7 @@ endif::[]
 
 ifndef::imagesdir[:imagesdir: ../../images]
 
-== Test Topic
+== Other page
 
 Ipsum sed in risus rutrum, commodo quam nec, viverra nulla.
 Curabitur porta tincidunt urna.
