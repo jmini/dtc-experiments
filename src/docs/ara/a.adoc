@@ -4,8 +4,6 @@ endif::[]
 
 ifndef::imagesdir[:imagesdir: ../images]
 
-:jbake-order: 10
-
 == Ara A
 
 lorem
