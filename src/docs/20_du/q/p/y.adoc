@@ -1,0 +1,12 @@
+ifndef::init[]
+include::../../../_init.adoc[]
+endif::[]
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+:jbake-menu: quat
+:jbake-order: 20
+
+== Y
+
+lorem
