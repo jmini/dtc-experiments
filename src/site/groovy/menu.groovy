@@ -58,15 +58,15 @@ try {
         def (title, entries) = data
         if (entries[0]) {
             if (title!="-" ) {
-                def firstEntry = entries.sort { a, b -> a.order <=> b.order ?: a.title <=> b.title }[0]
-                def url = "${content.rootpath}${firstEntry.uri}"
+                def firstEntryUri = findFirstUri(entries)
+                def url = "${content.rootpath}$firstEntryUri"
                 def basePath = url.replaceAll('[^/]*$', '')
                 def isActive = ""
                 if ((content.rootpath + content.uri)?.startsWith(basePath)) {
                     isActive = "active"
                 }
                 //System.out.println "   $title"
-                newEntries << [isActive: isActive, href: "${content.rootpath}${entries.find { it.order == 0 }?.uri ?: entries[0].uri}", title: title]
+                newEntries << [isActive: isActive, href: url, title: title]
             }
         }
     }
@@ -88,13 +88,13 @@ def makeHierachical(def entries) {
         map = map[key]
     }
 
-    result = processMap(entries, prefix, map)
+    result = processMap(entries, prefix, map, true)
     return result
 }
 
-def processMap(def originalEntries, String prefix, def map) {
+def processMap(def originalEntries, String prefix, def map, boolean skipIndex) {
     return map.entrySet()
-        .findAll { entry -> entry.key != 'index.html' }
+        .findAll { entry -> skipIndex || entry.key != 'index.html' }
         .collect { entry ->
             def candidate;
             if(entry.key.endsWith(".html")) {
@@ -121,7 +121,7 @@ def processMap(def originalEntries, String prefix, def map) {
                 }
             }
             if(!entry.value.isEmpty()) {
-                candidate['children'] = processMap(originalEntries, prefix + entry.key + '/', entry.value)
+                candidate['children'] = processMap(originalEntries, prefix + entry.key + '/', entry.value, false)
             }
             return candidate
         }
@@ -135,6 +135,17 @@ def Map<String, ?> asTree(List<List<String>> list) {
                 .groupBy { it.head() }
                 .collectEntries { k, v -> [k, asTree(v.collect {it.tail()}) ] }
     }
+}
+
+def String findFirstUri(def entries) {
+    def firstEntry = entries.sort { a, b -> a.order <=> b.order ?: a.title <=> b.title }[0]
+    if (firstEntry) {
+        if(firstEntry.uri) {
+            return firstEntry.uri
+        }
+        return findFirstUri(firstEntry.children)
+    }
+    return ''
 }
 
 //store results to be used in other templates
