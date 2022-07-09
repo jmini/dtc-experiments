@@ -1,0 +1,9 @@
+ifndef::init[]
+include::../_init.adoc[]
+endif::[]
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+== Ara A
+
+lorem
