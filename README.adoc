@@ -26,6 +26,31 @@ This repository is an example setup of a site generated with link:http://doctool
 //end::description[]
 See the publish site link:{homepage}[on GitHub pages].
 
+=== `use-dev-version` branch
+
+This branch is using a special version called `dev` pointing to a local clone of the doctoolchain git repository.
+
+To create the link (assuming the git repo is located in folder `~/Git/docToolchain`)
+
+[source, sh]
+----
+ln -s ~/Git/docToolchain ~/.doctoolchain/docToolchain-dev
+----
+
+When running `./dtcw generateSite` the log will looks like this:
+
+[source, log]
+----
+dtcw - docToolchain wrapper V0.29
+docToolchain Vdev
+grep: /proc/version: No such file or directory
+docker available
+home folder exists
+use local homefolder install ~/.doctoolchain/
+----
+
+See the official documentation: https://doctoolchain.org/docToolchain/v2.0.x/025_development/010_setup_dev_env.html[Setting Up a Dev Environment]
+
 //tag::contact-section[]
 == Get in touch
 

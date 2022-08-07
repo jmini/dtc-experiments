@@ -9,8 +9,9 @@
 #...
 
 MAIN_CONFIG_FILE=docToolchainConfig.groovy
-VERSION=2.0.5
-DISTRIBUTION_URL=https://github.com/docToolchain/docToolchain/releases/download/v${VERSION}/docToolchain-${VERSION}.zip
+# This requires a link to exist, so that `~/.doctoolchain/docToolchain-dev` is pointing a local clone of the doctoolchain git repository.
+VERSION=dev
+DISTRIBUTION_URL=should_be_local
 export DTC_PROJECT_BRANCH=$(git branch --show-current)
 
 DTC_OPTS="$DTC_OPTS -PmainConfigFile=$MAIN_CONFIG_FILE --warning-mode=none --no-daemon"
