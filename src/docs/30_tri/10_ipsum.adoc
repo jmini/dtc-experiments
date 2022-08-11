@@ -6,6 +6,12 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 == Ipsum
 
+[source, json]
+.example JSON file from an other folder
+----
+include::{projectRootDir}/otherFolder/test.json[]
+----
+
 Ipsum sed in risus rutrum, commodo quam nec, viverra nulla.
 Curabitur porta tincidunt urna.
 Aenean pulvinar sapien ex, id ultrices lacus consectetur ac.
