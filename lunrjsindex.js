@@ -26,14 +26,6 @@ var documents = [
 
 {
     "id": 3,
-    "uri": "30_tri/20_advanced/10_topic-A.html",
-    "menu": "tri",
-    "title": "Topic A",
-    "text": " Table of Contents 1. Topic A 1. Topic A Ipsum sed in risus rutrum, commodo quam nec, viverra nulla. Curabitur porta tincidunt urna. "
-},
-
-{
-    "id": 4,
     "uri": "30_tri/10_ipsum.html",
     "menu": "tri",
     "title": "Ipsum",
@@ -41,7 +33,7 @@ var documents = [
 },
 
 {
-    "id": 5,
+    "id": 4,
     "uri": "20_du/30_diagrams.html",
     "menu": "du",
     "title": "Asciidoctor Diagrams",
@@ -49,7 +41,7 @@ var documents = [
 },
 
 {
-    "id": 6,
+    "id": 5,
     "uri": "10_unu/10_intro.html",
     "menu": "unu",
     "title": "Intro",
@@ -57,11 +49,19 @@ var documents = [
 },
 
 {
-    "id": 7,
+    "id": 6,
     "uri": "30_tri/20_advanced/20_topic-B.html",
     "menu": "tri",
     "title": "Topic B",
     "text": " Table of Contents 1. Topic B 1. Topic B Ipsum sed in risus rutrum, commodo quam nec, viverra nulla. Curabitur porta tincidunt urna. "
+},
+
+{
+    "id": 7,
+    "uri": "30_tri/20_advanced/10_topic-A.html",
+    "menu": "tri",
+    "title": "Topic A",
+    "text": " Table of Contents 1. Topic A 1. Topic A Ipsum sed in risus rutrum, commodo quam nec, viverra nulla. Curabitur porta tincidunt urna. "
 },
 
 {
