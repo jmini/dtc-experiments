@@ -7,7 +7,32 @@
     </url>
 
     <url>
+    	<loc>http://jbake.org/20_du/30_diagrams.html</loc>
+    	<lastmod>2022-09-09</lastmod>
+    </url>
+
+    <url>
     	<loc>http://jbake.org/20_du/20_asciidoc.html</loc>
+    	<lastmod>2022-09-09</lastmod>
+    </url>
+
+    <url>
+    	<loc>http://jbake.org/20_du/10_lorem.html</loc>
+    	<lastmod>2022-09-09</lastmod>
+    </url>
+
+    <url>
+    	<loc>http://jbake.org/ara/index.html</loc>
+    	<lastmod>2022-09-09</lastmod>
+    </url>
+
+    <url>
+    	<loc>http://jbake.org/ara/b.html</loc>
+    	<lastmod>2022-09-09</lastmod>
+    </url>
+
+    <url>
+    	<loc>http://jbake.org/ara/a.html</loc>
     	<lastmod>2022-09-09</lastmod>
     </url>
 
@@ -17,12 +42,7 @@
     </url>
 
     <url>
-    	<loc>http://jbake.org/20_du/30_diagrams.html</loc>
-    	<lastmod>2022-09-09</lastmod>
-    </url>
-
-    <url>
-    	<loc>http://jbake.org/20_du/10_lorem.html</loc>
+    	<loc>http://jbake.org/10_unu/10_intro.html</loc>
     	<lastmod>2022-09-09</lastmod>
     </url>
 
@@ -33,11 +53,6 @@
 
     <url>
     	<loc>http://jbake.org/30_tri/20_advanced/10_topic-A.html</loc>
-    	<lastmod>2022-09-09</lastmod>
-    </url>
-
-    <url>
-    	<loc>http://jbake.org/10_unu/10_intro.html</loc>
     	<lastmod>2022-09-09</lastmod>
     </url>
 
