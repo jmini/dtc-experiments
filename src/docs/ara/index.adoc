@@ -7,3 +7,5 @@ ifndef::imagesdir[:imagesdir: ../images]
 == Ara Index
 
 lorem
+
+I have created issue jira:JENKINS-57098[] to discuss it.

@@ -104,6 +104,16 @@ microsite.with {
 
 }
 
+jbake.with {
+    plugins = [
+        'fr.jmini.asciidoctorj:jira:1.1.0'
+    ]
+    asciidoctorAttributes = [
+        'jira-server=https://issues.jenkins-ci.org/',
+        'jira-type=link-new-window'
+    ]
+}
+
 //*****************************************************************************************
 
 //Configuration for exportChangelog
