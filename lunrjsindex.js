@@ -10,14 +10,6 @@ var documents = [
 
 {
     "id": 1,
-    "uri": "20_du/30_diagrams.html",
-    "menu": "du",
-    "title": "Asciidoctor Diagrams",
-    "text": " Table of Contents 1. Asciidoctor Diagrams 1.1. ditaa 1.2. graphviz 1.3. plantuml 1. Asciidoctor Diagrams 1.1. ditaa 1.2. graphviz 1.3. plantuml "
-},
-
-{
-    "id": 2,
     "uri": "20_du/20_asciidoc.html",
     "menu": "du",
     "title": "AsciiDoc",
@@ -25,7 +17,7 @@ var documents = [
 },
 
 {
-    "id": 3,
+    "id": 2,
     "uri": "20_du/10_lorem.html",
     "menu": "du",
     "title": "Lorem",
@@ -33,19 +25,27 @@ var documents = [
 },
 
 {
-    "id": 4,
+    "id": 3,
     "uri": "ara/index.html",
     "menu": "ara",
     "title": "Ara Index",
-    "text": " Table of Contents 1. Ara Index 1. Ara Index lorem "
+    "text": " Table of Contents 1. Ara Index 1. Ara Index lorem I have created issue JENKINS-57098 to discuss it. "
 },
 
 {
-    "id": 5,
+    "id": 4,
     "uri": "ara/b.html",
     "menu": "ara",
     "title": "Ara B",
     "text": " Table of Contents 1. Ara B 1. Ara B lorem "
+},
+
+{
+    "id": 5,
+    "uri": "20_du/30_diagrams.html",
+    "menu": "du",
+    "title": "Asciidoctor Diagrams",
+    "text": " Table of Contents 1. Asciidoctor Diagrams 1.1. ditaa 1.2. graphviz 1.3. plantuml 1. Asciidoctor Diagrams 1.1. ditaa 1.2. graphviz 1.3. plantuml "
 },
 
 {
@@ -58,22 +58,6 @@ var documents = [
 
 {
     "id": 7,
-    "uri": "30_tri/10_ipsum.html",
-    "menu": "tri",
-    "title": "Ipsum",
-    "text": " Table of Contents 1. Ipsum 1. Ipsum Ipsum sed in risus rutrum, commodo quam nec, viverra nulla. Curabitur porta tincidunt urna. Aenean pulvinar sapien ex, id ultrices lacus consectetur ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et euismod est. Integer eleifend ornare accumsan. Etiam non nulla ut urna suscipit bibendum sed sed urna. Aenean maximus dictum venenatis. Nullam ultrices lorem sed rutrum egestas. Duis id felis at ex congue venenatis at non turpis. Praesent quis molestie justo. Nam a elementum elit. Nunc vehicula fermentum euismod. Etiam fermentum et purus sed interdum. Phasellus aliquam ullamcorper ligula porttitor ullamcorper. Vestibulum lorem leo, mattis quis ligula eget, vulputate dignissim magna. Listing 1. Ipsum properties example ipsum.enabled=true ipsum.name=ipsum ipsum.id=12598431 Morbi pretium quis lacus sed fermentum. Donec convallis quam non odio maximus, sed mollis lacus mollis. Sed vehicula auctor magna at dignissim. Donec quis urna et est placerat malesuada. Donec fringilla magna id orci vulputate, eget venenatis ex posuere. Quisque malesuada et mi non finibus lorem . Curabitur in diam quam. Cras eu purus lorem. Phasellus ut blandit ex. Morbi maximus eleifend enim, in venenatis enim auctor pharetra. Sed congue mollis tellus, id molestie libero dictum vitae. Aliquam erat volutpat. Quisque nec blandit nulla. "
-},
-
-{
-    "id": 8,
-    "uri": "10_unu/10_intro.html",
-    "menu": "unu",
-    "title": "Intro",
-    "text": " Table of Contents 1. Intro 1. Intro Basic ditaa block: Lorem lacinia pellentesque odio ac facilisis ipsum . "
-},
-
-{
-    "id": 9,
     "uri": "30_tri/20_advanced/20_topic-B.html",
     "menu": "tri",
     "title": "Topic B",
@@ -81,11 +65,27 @@ var documents = [
 },
 
 {
-    "id": 10,
+    "id": 8,
     "uri": "30_tri/20_advanced/10_topic-A.html",
     "menu": "tri",
     "title": "Topic A",
     "text": " Table of Contents 1. Topic A 1. Topic A Ipsum sed in risus rutrum, commodo quam nec, viverra nulla. Curabitur porta tincidunt urna. "
+},
+
+{
+    "id": 9,
+    "uri": "30_tri/10_ipsum.html",
+    "menu": "tri",
+    "title": "Ipsum",
+    "text": " Table of Contents 1. Ipsum 1. Ipsum Ipsum sed in risus rutrum, commodo quam nec, viverra nulla. Curabitur porta tincidunt urna. Aenean pulvinar sapien ex, id ultrices lacus consectetur ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et euismod est. Integer eleifend ornare accumsan. Etiam non nulla ut urna suscipit bibendum sed sed urna. Aenean maximus dictum venenatis. Nullam ultrices lorem sed rutrum egestas. Duis id felis at ex congue venenatis at non turpis. Praesent quis molestie justo. Nam a elementum elit. Nunc vehicula fermentum euismod. Etiam fermentum et purus sed interdum. Phasellus aliquam ullamcorper ligula porttitor ullamcorper. Vestibulum lorem leo, mattis quis ligula eget, vulputate dignissim magna. Listing 1. Ipsum properties example ipsum.enabled=true ipsum.name=ipsum ipsum.id=12598431 Morbi pretium quis lacus sed fermentum. Donec convallis quam non odio maximus, sed mollis lacus mollis. Sed vehicula auctor magna at dignissim. Donec quis urna et est placerat malesuada. Donec fringilla magna id orci vulputate, eget venenatis ex posuere. Quisque malesuada et mi non finibus lorem . Curabitur in diam quam. Cras eu purus lorem. Phasellus ut blandit ex. Morbi maximus eleifend enim, in venenatis enim auctor pharetra. Sed congue mollis tellus, id molestie libero dictum vitae. Aliquam erat volutpat. Quisque nec blandit nulla. "
+},
+
+{
+    "id": 10,
+    "uri": "10_unu/10_intro.html",
+    "menu": "unu",
+    "title": "Intro",
+    "text": " Table of Contents 1. Intro 1. Intro Basic ditaa block: Lorem lacinia pellentesque odio ac facilisis ipsum . "
 },
 
 {
