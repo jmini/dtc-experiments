@@ -87,7 +87,7 @@ microsite.with {
     //
     // the url to create an issue in github
     // Example: https://github.com/docToolchain/docToolchain/issues/new
-    issueUrl = '##issue-url##'
+    issueUrl = 'https://github.com/jmini/dtc-experiments/issues/new'
     //
     // the base url for code files in github
     // Example: https://github.com/doctoolchain/doctoolchain/edit/master/src/docs
