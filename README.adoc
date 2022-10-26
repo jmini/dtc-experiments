@@ -16,6 +16,9 @@
 :author: Jeremie Bresson
 
 Experiments with link:http://doctoolchain.org/[docToolchain]
+
+NOTE: the same project is hosted on both https://github.com/jmini/dtc-experiments/[GitHub] and https://gitlab.com/jmini/dtc-experiments/[GitLab]
+
 //end::header[]
 
 //tag::description[]
