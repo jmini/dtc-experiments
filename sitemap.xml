@@ -2,73 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
+    	<loc>http://jbake.org/ara/index.html</loc>
+    	<lastmod>2023-05-09</lastmod>
+    </url>
+
+    <url>
     	<loc>http://jbake.org/ara/b.html</loc>
-    	<lastmod>2022-10-26</lastmod>
+    	<lastmod>2023-05-09</lastmod>
     </url>
 
     <url>
     	<loc>http://jbake.org/ara/a.html</loc>
-    	<lastmod>2022-10-26</lastmod>
-    </url>
-
-    <url>
-    	<loc>http://jbake.org/30_tri/20_advanced/20_topic-B.html</loc>
-    	<lastmod>2022-10-26</lastmod>
-    </url>
-
-    <url>
-    	<loc>http://jbake.org/30_tri/20_advanced/10_topic-A.html</loc>
-    	<lastmod>2022-10-26</lastmod>
-    </url>
-
-    <url>
-    	<loc>http://jbake.org/30_tri/10_ipsum.html</loc>
-    	<lastmod>2022-10-26</lastmod>
+    	<lastmod>2023-05-09</lastmod>
     </url>
 
     <url>
     	<loc>http://jbake.org/10_unu/10_intro.html</loc>
-    	<lastmod>2022-10-26</lastmod>
-    </url>
-
-    <url>
-    	<loc>http://jbake.org/ara/index.html</loc>
-    	<lastmod>2022-10-26</lastmod>
+    	<lastmod>2023-05-09</lastmod>
     </url>
 
     <url>
     	<loc>http://jbake.org/10_unu/20_content.html</loc>
-    	<lastmod>2022-10-26</lastmod>
-    </url>
-
-    <url>
-    	<loc>http://jbake.org/20_du/40_drawio.html</loc>
-    	<lastmod>2022-10-26</lastmod>
-    </url>
-
-    <url>
-    	<loc>http://jbake.org/20_du/30_diagrams.html</loc>
-    	<lastmod>2022-10-26</lastmod>
+    	<lastmod>2023-05-09</lastmod>
     </url>
 
     <url>
     	<loc>http://jbake.org/20_du/20_asciidoc.html</loc>
-    	<lastmod>2022-10-26</lastmod>
+    	<lastmod>2023-05-09</lastmod>
+    </url>
+
+    <url>
+    	<loc>http://jbake.org/20_du/40_drawio.html</loc>
+    	<lastmod>2023-05-09</lastmod>
+    </url>
+
+    <url>
+    	<loc>http://jbake.org/20_du/30_diagrams.html</loc>
+    	<lastmod>2023-05-09</lastmod>
     </url>
 
     <url>
     	<loc>http://jbake.org/20_du/10_lorem.html</loc>
-    	<lastmod>2022-10-26</lastmod>
+    	<lastmod>2023-05-09</lastmod>
+    </url>
+
+    <url>
+    	<loc>http://jbake.org/30_tri/20_advanced/20_topic-B.html</loc>
+    	<lastmod>2023-05-09</lastmod>
+    </url>
+
+    <url>
+    	<loc>http://jbake.org/30_tri/20_advanced/10_topic-A.html</loc>
+    	<lastmod>2023-05-09</lastmod>
+    </url>
+
+    <url>
+    	<loc>http://jbake.org/30_tri/10_ipsum.html</loc>
+    	<lastmod>2023-05-09</lastmod>
     </url>
 
     <url>
     	<loc>http://jbake.org/search.html</loc>
-    	<lastmod>2022-10-26</lastmod>
+    	<lastmod>2023-05-09</lastmod>
     </url>
 
     <url>
     	<loc>http://jbake.org/lunrjsindex.html</loc>
-    	<lastmod>2022-10-26</lastmod>
+    	<lastmod>2023-05-09</lastmod>
     </url>
 
 </urlset>
