@@ -15,7 +15,7 @@
 = {project-name}
 :author: Jeremie Bresson
 
-Experiments with link:http://doctoolchain.org/[docToolchain]
+Experiments with link:http://doctoolchain.org/[docToolchain], inspired from the https://gitlab.com/doctoolchain/ci-cd-demo/[docToolchain CI-CD Demo].
 
 NOTE: the same project is hosted on both https://github.com/jmini/dtc-experiments/[GitHub] and https://gitlab.com/jmini/dtc-experiments/[GitLab]
 
